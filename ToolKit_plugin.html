@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manohar</title>
+    <link href="Assests/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap-grid.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="Assests/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Assests/js/bootstrap.js"></script>
+    <script src="Assests/js/bootstrap.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://unpkg.com/html-api"></script>
+    <script src="sendMail.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/nodemailer@6.3.1/lib/nodemailer.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>
+
+<body>
+
+    <section class="section-hero">
+        <!NavBar>
+            <nav class="navbar navbar-New navbar-expand-lg navbar-light">
+                <a class="navbar-brand navbar-brand-New" href="index.html">ManoharManu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link  nav-link-new" href="index.html">Works<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-new" href="ToolKit_Plugin.html">ToolKit</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-new" href="about-me.html">About me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-section-hero" style="margin-top: 48px">
+                <div class="row">
+                    <div class="col-8">
+                        <h1 style="font-size: 36px">Hi Human. I’m Manohar, Multidisciplinary Designer Expertizing in UX and Visual Design</h1>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 16px">
+                    <div class="col">
+                        <h3 style="color:#EDA660;font-size: 24px">OBSERVER.THINKER.DESIGNER.</h3>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="sayHiButton">Say HI</button>
+                    </div>
+                    <div class="col">
+                        <img style="width: 90%" src="Media/homePageillustration.png" alt="Smiley face">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        function sendMessage(userId, email, callback) {
+
+            //            fetch('http://localhost:3000/sendEmail', {
+            //                    method: 'GET',
+            //                    headers: new Headers()
+            //                }).then((res) => res.json())
+            //                .then((data) => console.log(data))
+            //                .catch((err) => console.log(err))
+
+            var request = new XMLHttpRequest()
+
+            request.open('GET', 'http://localhost:3000/sendEmail', true)
+            request.onload = function() {
+                // Begin accessing JSON data here
+                var data = JSON.parse(this.response)
+
+                if (request.status >= 200 && request.status < 400) {
+                    data.forEach(movie => {
+                        console.log(movie.title)
+                    })
+                } else {
+                    console.log('error');
+                }
+            }
+
+            request.send();
+        }
+
+    </script>
+</body>
+
+</html>

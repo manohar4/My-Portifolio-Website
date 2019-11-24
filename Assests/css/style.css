@@ -1,3 +1,61 @@
+/* media Queries for Html */
+
+
+
+/*my reference 
+for 48 pixel used 
+for 32 pixel used 2rem
+for 24 pixel used 1.5rem
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html{
+      font-size: 12px;  
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+      font-size: 13px;  
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html{
+      font-size: 14px;  
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html{
+      font-size: 16px;  
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html{
+      font-size: 18px;  
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    html{
+      font-size: 32px;  
+    }
+}
+
+@media only screen and (min-width: 2150px) {
+    html{
+      font-size: 40px;  
+    }
+}
+
+
 body {
     background-color: #0f0f0f !important;
 }
@@ -127,7 +185,7 @@ body {
 
 .footerText{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 
@@ -159,4 +217,40 @@ body {
 .container-section-work{
     color: #FFFFFF !important;
     padding: 2vw 4vw !important;
+}
+
+
+
+
+
+
+/* Projects Pages css*/
+
+
+
+/* media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
 }
