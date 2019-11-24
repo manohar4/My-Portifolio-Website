@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manohar</title>
+    <link href="Assests/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap-grid.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="Assests/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Assests/js/bootstrap.js"></script>
+    <script src="Assests/js/bootstrap.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://unpkg.com/html-api"></script>
+    <script src="sendMail.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/nodemailer@6.3.1/lib/nodemailer.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>
+
+<body>
+
+    <section class="section-hero">
+        <!NavBar>
+            <nav class="navbar navbar-New navbar-expand-lg navbar-light">
+                <a class="navbar-brand navbar-brand-New" href="index.html">ManoharManu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link  nav-link-new" href="index.html">Works<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-new" href="about-me.html">About me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-section-hero" style="margin-top: 48px">
+                <div class="row">
+                    <div class="col-8">
+                        <h1 style="font-size: 36px">Hi Human. I’m Manohar, Multidisciplinary Designer Expertizing in UX and Visual Design</h1>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 16px">
+                    <div class="col">
+                        <h3 style="color:#EDA660;font-size: 24px">OBSERVER.THINKER.DESIGNER.</h3>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="sayHiButton">Say HI</button>
+                    </div>
+                    <div class="col">
+                        <img style="width: 90%" src="Media/homePageillustration.png" alt="Smiley face">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section-works">
+        <div class="container-section-hero" style="margin-top: 32px;">
+            <h3 style="color:#EEEEEE;font-size: 36px;margin-bottom: 32px">Works</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card" style="background-color: #FFFFFF00">
+                        <div class="card-body">
+                            <img style="width: 100%; border-radius: 16px" src="Projects/Project_1/CoverPic.png" alt="Smiley face">
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-title" style="margin-top: 16px;">Concept ‘Clipboard’ App - Design</h5>
+
+                                </div>
+                                <div class="col-6">
+                                    <button onclick="window.location.href = 'Projects/Project_1/project_1.html';" class="seeProjectButton">See Project</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img style="width: 100%; border-radius: 16px" src="Media/Works_imges/Rectangle%202.png" alt="Smiley face">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-title" style="margin-top: 16px;">Concept ‘Clipboard’ App - Design</h5>
+
+                                </div>
+                                <div class="col-6">
+                                    <button class="seeProjectButton">See Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img style="width: 100%" src="Media/Works_imges/Rectangle%202.png" alt="Smiley face">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-title" style="margin-top: 16px;">Concept ‘Clipboard’ App - Design</h5>
+
+                                </div>
+                                <div class="col-6">
+                                    <button class="seeProjectButton">See Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-more-works">
+        <div class="container-section-hero" style="margin-top: 32px;">
+            <h3 style="color:#EEEEEE;font-size: 36px;margin-bottom: 32px">Other Fun Works</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card" style="background-color: #FFFFFF00">
+                        <div class="card-body">
+                            <img style="width: 100%" src="Media/Works_imges/Rectangle%2010.png" alt="Smiley face">
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-title" style="margin-top: 16px;">Concept ‘Clipboard’ App - Design</h5>
+
+                                </div>
+                                <div class="col-6">
+                                    <button class="seeProjectButton">See Project</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img style="width: 100%" src="Media/Works_imges/Rectangle%202.png" alt="Smiley face">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-title" style="margin-top: 16px;">Concept ‘Clipboard’ App - Design</h5>
+
+                                </div>
+                                <div class="col-6">
+                                    <button class="seeProjectButton">See Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-section-hero" style="text-align: center">
+        <h3 style="color:#EDA660;font-size: 32px">Always Learning. Always Growth</h3>
+    </div>
+
+    <section class="section-footer">
+
+
+        <div class="container-section-hero">
+            <div class="row">
+                <div class="col-6">
+                    <div style="margin-bottom: 48px">
+                        <h4 style="color: #EBEBEB80">Social</h4>
+                        <a href="https://www.behance.net/manoharmande31" class="footerText" style="color: #0452f0">Behance</a> <br />
+                        <a href="https://dribbble.com/manoharmanu" class="footerText" style="color: #e74d89">Dribbble</a> <br />
+                        <a href="https://twitter.com/manoharmanu4444" class="footerText" style="color: #389ded">Twitter</a> <br />
+                        <a href="https://www.facebook.com/manohar.manu4444" style="color: #4167b2" class="footerText">Facebook</a>
+                    </div>
+
+                    <div style="margin-bottom: 48px">
+                        <h4 style="color: #EBEBEB80">Contact</h4>
+                        <a class="footerText">manoharmanu4444@gmail.com</a><br />
+                        <a class="footerText">8790357714</a>
+                    </div>
+
+                    <div style="margin-bottom: 48px">
+                        <h4 style="color: #EBEBEB80">Copyright</h4>
+                        <div class="footerText">© 2019 Manohar Rapeti</div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-6" style="border-left: 1px solid #707070; text-align: center">
+                    <h3>Thank You for Visiting</h3>
+                    <img style="width: 80%" src="Media/FooterIllustration.png" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <form class="needs-validation" onSubmit="sendMessage()">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Name or Email</label>
+                                <input type="text" class="form-control" id="recipient-name" required>
+                                <div class="invalid-tooltip">
+                                    Please choose a unique and valid username.
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message</label>
+                                <textarea class="form-control " id="message-text" required></textarea>
+                                <div class="invalid-tooltip">
+                                    Please choose a unique and valid username.
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        function sendMessage(userId, email, callback) {
+
+            //            fetch('http://localhost:3000/sendEmail', {
+            //                    method: 'GET',
+            //                    headers: new Headers()
+            //                }).then((res) => res.json())
+            //                .then((data) => console.log(data))
+            //                .catch((err) => console.log(err))
+
+            var request = new XMLHttpRequest()
+
+            request.open('GET', 'http://localhost:3000/sendEmail', true)
+            request.onload = function() {
+                // Begin accessing JSON data here
+                var data = JSON.parse(this.response)
+
+                if (request.status >= 200 && request.status < 400) {
+                    data.forEach(movie => {
+                        console.log(movie.title)
+                    })
+                } else {
+                    console.log('error');
+                }
+            }
+
+            request.send();
+        }
+
+    </script>
+</body>
+
+</html>

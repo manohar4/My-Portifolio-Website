@@ -1,0 +1,26 @@
+{
+  "name": "finalattempt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "nodemailer": "^6.3.1",
+    "npm": "^6.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manohar4/netlifyWebiste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manohar4/netlifyWebiste/issues"
+  },
+  "homepage": "https://github.com/manohar4/netlifyWebiste#readme"
+}
