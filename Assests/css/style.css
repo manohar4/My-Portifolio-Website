@@ -244,7 +244,7 @@ body {
  bottom: -32rem;
     position: relative;
     width: 32rem;
-    height: 100vw;
+    height: 96vw;
     overflow: scroll;
     transform: rotate(-90deg);
     transform-origin: top left;
