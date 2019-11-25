@@ -16,138 +16,176 @@ for 6 pixel used 0.3575rem
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    html{
-      font-size: 12px;  
+    html {
+        font-size: 12px;
     }
-    
-    .homePageIllustration{
+
+    .homePageIllustration {
         margin-top: 4rem;
     }
-    .myBitemoji{
+
+    .myBitemoji {
         width: 8rem;
     }
-    
+
+    .Project_heroImage {
+
+        border-radius: 1rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .project_1_heroImage {
+        content: url("../../Projects/Project_1/LandingImage_mobile.png");
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    html{
-      font-size: 13px;  
+    html {
+        font-size: 13px;
     }
-    
-    .homePageIllustration{
+
+    .homePageIllustration {
         margin-top: 3rem;
     }
-    .myBitemoji{
+
+    .myBitemoji {
         width: 8rem;
+    }
+
+    .project_1_heroImage {
+        content: url("../../Projects/Project_1/LandingImage.png")
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    html{
-      font-size: 14px;  
+    html {
+        font-size: 14px;
     }
-    .homePageIllustration{
+
+    .homePageIllustration {
         margin-top: 1rem;
         width: 80%;
     }
-    .myBitemoji{
+
+    .myBitemoji {
         width: 8rem;
     }
-} 
+
+    .project_1_heroImage {
+        content: url("../../Projects/Project_1/LandingImage.png")
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    html{
-      font-size: 16px;  
+    html {
+        font-size: 16px;
     }
-    
-    .homePageIllustration{
+
+    .homePageIllustration {
         margin-top: 0rem;
         width: 100%;
     }
-    .myBitemoji{
+
+    .myBitemoji {
         width: 8rem;
     }
-} 
+
+    .project_1_heroImage {
+        content: url("../../Projects/Project_1/LandingImage.png")
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    html{
-      font-size: 18px;  
+    html {
+        font-size: 18px;
     }
-    
-    .homePageIllustration{
+
+    .homePageIllustration {
         margin-top: 0rem;
         width: 100%;
+    }
+
+    .project_1_heroImage {
+        content: url("../../Projects/Project_1/LandingImage.png")
     }
 }
 
 @media only screen and (min-width: 1900px) {
-    html{
-      font-size: 32px;  
+    html {
+        font-size: 32px;
     }
 }
 
 @media only screen and (min-width: 2150px) {
-    html{
-      font-size: 40px;  
+    html {
+        font-size: 40px;
     }
-    
-    .homePageIllustration{
+
+    .homePageIllustration {
         margin-top: 0rem;
         width: 100%;
+    }
+
+    .project_1_heroImage {
+        content: url("../../Projects/Project_1/LandingImage.png")
     }
 }
 
 
 body {
     background-color: #0f0f0f !important;
-      -webkit-animation: gradient 16s ease infinite;
-  -moz-animation: gradient 16s ease infinite;
-  animation: gradient 16s ease infinite;
+    -webkit-animation: gradient 16s ease infinite;
+    -moz-animation: gradient 16s ease infinite;
+    animation: gradient 16s ease infinite;
 }
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}  
 
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 700;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
-}  
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 
-.fixedCol{
-     float: left;
-  width: 50%;
-  padding: 10px;
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+.fixedCol {
+    float: left;
+    width: 50%;
+    padding: 10px;
 }
 
 
 /*Section-hero*/
 
-.section-hero{
+.section-hero {
     height: 100vh;
 }
 
 /*NavBar*/
 
-.navbar-New{
+.navbar-New {
     padding: 0rem !important;
     padding-top: 1rem !important;
 
 }
 
-.navbar-brand-New{
+.navbar-brand-New {
     color: white !important;
     margin-left: 4vw !important;
     font-size: 1.5rem !important;
 }
 
-.nav-link-new{
+.nav-link-new {
     color: white !important;
 }
 
@@ -158,30 +196,32 @@ body {
     font-size: 1rem !important;
 }
 
-.container-section-hero{
+.container-section-hero {
     color: #FFFFFF !important;
     padding: 4vw !important;
 }
 
-.sayHiButton{
+.sayHiButton {
     background: #00000000;
     font-size: 1.2rem;
     font-weight: 700;
     border: 4px solid white;
     border-radius: 0.3575rem;
     padding: 0.75rem 2rem;
-    color: white ;
+    color: white;
     margin-top: 1.5rem;
     box-shadow: 0px 0.3575rem #EDA66090;
     cursor: pointer;
 }
 
-.sayHiButton:hover {background-color: #FF7600}
+.sayHiButton:hover {
+    background-color: #FF7600
+}
 
 .sayHiButton:active {
-  background-color: #FF7600;
-  box-shadow: 0 0.3rem #FF7600;
-  transform: translateY(4px);
+    background-color: #FF7600;
+    box-shadow: 0 0.3rem #FF7600;
+    transform: translateY(4px);
 }
 
 .sayHiButton:focus {
@@ -190,39 +230,42 @@ body {
 
 /*section- work*/
 
-.card{
+.card {
     background-color: #FFFFFF00 !important;
 }
 
-.card-body{
+.card-body {
     padding: 0px !important;
 }
 
-.card-title{
+.card-title {
     font-size: 1.24rem !important;
 }
 
-.seeProjectButton{
+.seeProjectButton {
     background: #00000000;
     font-size: 1.2rem;
     font-weight: 700;
     border: 4px solid white;
     border-radius: 0.3575rem;
     padding: 0.6rem 0px;
-    color: white ;
+    color: white;
     box-shadow: 0px 0.3575rem #EDA66090;
     cursor: pointer;
     width: calc(100% - 30px);
     position: absolute;
 }
 
-.seeProjectButton:hover {background-color: #FF7600}
+.seeProjectButton:hover {
+    background-color: #FF7600
+}
 
 .seeProjectButton:active {
-  background-color: #FF7600;
-  box-shadow: 0 0.3rem #FF7600;
-  transform: translateY(4px);
+    background-color: #FF7600;
+    box-shadow: 0 0.3rem #FF7600;
+    transform: translateY(4px);
 }
+
 .seeProjectButton:focus {
     outline: none;
 }
@@ -230,11 +273,11 @@ body {
 
 /*Section Footer*/
 
-.section-footer{
+.section-footer {
     background-color: #232323;
 }
 
-.footerText{
+.footerText {
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -244,28 +287,28 @@ body {
 /*image Grid*/
 
 .containerNew {
- bottom: -32rem;
+    bottom: -32rem;
     position: relative;
     width: 32rem;
     height: 96vw;
     overflow: scroll;
     transform: rotate(-90deg);
     transform-origin: top left;
-    
+
 }
 
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
-.box{
-     width: 32rem;
+.box {
+    width: 32rem;
     justify-content: center;
 }
 
 
-.container-section-work{
+.container-section-work {
     color: #FFFFFF !important;
     padding: 2vw 4vw !important;
 }
@@ -282,29 +325,19 @@ body {
 /* media Queries */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  
-} 
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  
-} 
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  
-}
+@media only screen and (min-width: 1200px) {}
 
 
 
