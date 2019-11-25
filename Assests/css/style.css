@@ -104,6 +104,9 @@ for 6 pixel used 0.3575rem
 
 body {
     background-color: #0f0f0f !important;
+      -webkit-animation: gradient 16s ease infinite;
+  -moz-animation: gradient 16s ease infinite;
+  animation: gradient 16s ease infinite;
 }
 @font-face {
   font-family: "San Francisco";
@@ -177,7 +180,7 @@ body {
 
 .sayHiButton:active {
   background-color: #FF7600;
-  box-shadow: 0 5px #FF7600;
+  box-shadow: 0 0.3rem #FF7600;
   transform: translateY(4px);
 }
 
@@ -217,7 +220,7 @@ body {
 
 .seeProjectButton:active {
   background-color: #FF7600;
-  box-shadow: 0 5px #FF7600;
+  box-shadow: 0 0.3rem #FF7600;
   transform: translateY(4px);
 }
 .seeProjectButton:focus {
@@ -302,3 +305,8 @@ body {
 @media only screen and (min-width: 1200px) {
   
 }
+
+
+
+
+/* testimonial Css*/
