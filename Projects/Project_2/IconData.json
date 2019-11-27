@@ -1,0 +1,512 @@
+[
+  {
+    "IconName": "1_Add.png",
+    "Tags": "Add",
+    "Path": "1_Add.png"
+  },
+  {
+    "IconName": "2_Align-Center.png",
+    "Tags": "Align-Center",
+    "Path": "2_Align-Center.png"
+  },
+  {
+    "IconName": "3_Align-Left.png",
+    "Tags": "Align-Left",
+    "Path": "3_Align-Left.png"
+  },
+  {
+    "IconName": "4_Align-RIght.png",
+    "Tags": "Align-RIght",
+    "Path": "4_Align-RIght.png"
+  },
+  {
+    "IconName": "5_Arrow-Back.png",
+    "Tags": "Arrow-Back",
+    "Path": "5_Arrow-Back.png"
+  },
+  {
+    "IconName": "6_Arrow-Down-04.png",
+    "Tags": "Arrow-Down-04",
+    "Path": "6_Arrow-Down-04.png"
+  },
+  {
+    "IconName": "7_Arrow-Down-88.png",
+    "Tags": "Arrow-Down-88",
+    "Path": "7_Arrow-Down-88.png"
+  },
+  {
+    "IconName": "8_Arrow-Forward.png",
+    "Tags": "Arrow-Forward",
+    "Path": "8_Arrow-Forward.png"
+  },
+  {
+    "IconName": "9_Arrow-Left.png",
+    "Tags": "Arrow-Left",
+    "Path": "9_Arrow-Left.png"
+  },
+  {
+    "IconName": "10_Arrow-RIght.png",
+    "Tags": "Arrow-RIght",
+    "Path": "10_Arrow-RIght.png"
+  },
+  {
+    "IconName": "11_Arrow-Up.png",
+    "Tags": "Arrow-Up",
+    "Path": "11_Arrow-Up.png"
+  },
+  {
+    "IconName": "12_Attachment.png",
+    "Tags": "Attachment",
+    "Path": "12_Attachment.png"
+  },
+  {
+    "IconName": "13_BackWard.png",
+    "Tags": "BackWard",
+    "Path": "13_BackWard.png"
+  },
+  {
+    "IconName": "14_Bar-Chart.png",
+    "Tags": "Bar-Chart",
+    "Path": "14_Bar-Chart.png"
+  },
+  {
+    "IconName": "15_Battery.png",
+    "Tags": "Battery",
+    "Path": "15_Battery.png"
+  },
+  {
+    "IconName": "16_Bookmark.png",
+    "Tags": "Bookmark",
+    "Path": "16_Bookmark.png"
+  },
+  {
+    "IconName": "17_Box-Product.png",
+    "Tags": "Box-Product",
+    "Path": "17_Box-Product.png"
+  },
+  {
+    "IconName": "18_Brightness.png",
+    "Tags": "Brightness",
+    "Path": "18_Brightness.png"
+  },
+  {
+    "IconName": "19_Calculater.png",
+    "Tags": "Calculater",
+    "Path": "19_Calculater.png"
+  },
+  {
+    "IconName": "20_Calender-Date.png",
+    "Tags": "Calender-Date",
+    "Path": "20_Calender-Date.png"
+  },
+  {
+    "IconName": "21_Camera.png",
+    "Tags": "Camera",
+    "Path": "21_Camera.png"
+  },
+  {
+    "IconName": "22_Cart.png",
+    "Tags": "Cart",
+    "Path": "22_Cart.png"
+  },
+  {
+    "IconName": "23_Checked.png",
+    "Tags": "Checked",
+    "Path": "23_Checked.png"
+  },
+  {
+    "IconName": "24_Cloud.png",
+    "Tags": "Cloud",
+    "Path": "24_Cloud.png"
+  },
+  {
+    "IconName": "25_Comment-Message.png",
+    "Tags": "Comment-Message",
+    "Path": "25_Comment-Message.png"
+  },
+  {
+    "IconName": "26_Dark-Mode.png",
+    "Tags": "Dark-Mode",
+    "Path": "26_Dark-Mode.png"
+  },
+  {
+    "IconName": "27_Delete-Trash.png",
+    "Tags": "Delete-Trash",
+    "Path": "27_Delete-Trash.png"
+  },
+  {
+    "IconName": "28_Desktop.png",
+    "Tags": "Desktop",
+    "Path": "28_Desktop.png"
+  },
+  {
+    "IconName": "29_Disk.png",
+    "Tags": "Disk",
+    "Path": "29_Disk.png"
+  },
+  {
+    "IconName": "30_Download.png",
+    "Tags": "Download",
+    "Path": "30_Download.png"
+  },
+  {
+    "IconName": "31_Downward.png",
+    "Tags": "Downward",
+    "Path": "31_Downward.png"
+  },
+  {
+    "IconName": "32_Duplicate-Copy.png",
+    "Tags": "Duplicate-Copy",
+    "Path": "32_Duplicate-Copy.png"
+  },
+  {
+    "IconName": "33_Edit.png",
+    "Tags": "Edit",
+    "Path": "33_Edit.png"
+  },
+  {
+    "IconName": "34_Error-Negative.png",
+    "Tags": "Error-Negative",
+    "Path": "34_Error-Negative.png"
+  },
+  {
+    "IconName": "35_Expand-Maximize.png",
+    "Tags": "Expand-Maximize",
+    "Path": "35_Expand-Maximize.png"
+  },
+  {
+    "IconName": "36_Female.png",
+    "Tags": "Female",
+    "Path": "36_Female.png"
+  },
+  {
+    "IconName": "37_File-Document.png",
+    "Tags": "File-Document",
+    "Path": "37_File-Document.png"
+  },
+  {
+    "IconName": "38_Folder.png",
+    "Tags": "Folder",
+    "Path": "38_Folder.png"
+  },
+  {
+    "IconName": "39_Forward.png",
+    "Tags": "Forward",
+    "Path": "39_Forward.png"
+  },
+  {
+    "IconName": "40_Gird.png",
+    "Tags": "Gird",
+    "Path": "40_Gird.png"
+  },
+  {
+    "IconName": "41_Grid-Column.png",
+    "Tags": "Grid-Column",
+    "Path": "41_Grid-Column.png"
+  },
+  {
+    "IconName": "42_Grid-Row.png",
+    "Tags": "Grid-Row",
+    "Path": "42_Grid-Row.png"
+  },
+  {
+    "IconName": "43_Head-Phone.png",
+    "Tags": "Head-Phone",
+    "Path": "43_Head-Phone.png"
+  },
+  {
+    "IconName": "44_Help.png",
+    "Tags": "Help",
+    "Path": "44_Help.png"
+  },
+  {
+    "IconName": "45_Home.png",
+    "Tags": "Home",
+    "Path": "45_Home.png"
+  },
+  {
+    "IconName": "46_Information.png",
+    "Tags": "Information",
+    "Path": "46_Information.png"
+  },
+  {
+    "IconName": "47_InProgress.png",
+    "Tags": "InProgress",
+    "Path": "47_InProgress.png"
+  },
+  {
+    "IconName": "48_Justify-Center.png",
+    "Tags": "Justify-Center",
+    "Path": "48_Justify-Center.png"
+  },
+  {
+    "IconName": "49_Light-Mode.png",
+    "Tags": "Light-Mode",
+    "Path": "49_Light-Mode.png"
+  },
+  {
+    "IconName": "50_Link.png",
+    "Tags": "Link",
+    "Path": "50_Link.png"
+  },
+  {
+    "IconName": "51_Location.png",
+    "Tags": "Location",
+    "Path": "51_Location.png"
+  },
+  {
+    "IconName": "52_Locked.png",
+    "Tags": "Locked",
+    "Path": "52_Locked.png"
+  },
+  {
+    "IconName": "53_Love-Like.png",
+    "Tags": "Love-Like",
+    "Path": "53_Love-Like.png"
+  },
+  {
+    "IconName": "54_Magnet.png",
+    "Tags": "Magnet",
+    "Path": "54_Magnet.png"
+  },
+  {
+    "IconName": "55_Mail-Message.png",
+    "Tags": "Mail-Message",
+    "Path": "55_Mail-Message.png"
+  },
+  {
+    "IconName": "56_Male.png",
+    "Tags": "Male",
+    "Path": "56_Male.png"
+  },
+  {
+    "IconName": "57_Menu.png",
+    "Tags": "Menu",
+    "Path": "57_Menu.png"
+  },
+  {
+    "IconName": "58_Mic.png",
+    "Tags": "Mic",
+    "Path": "58_Mic.png"
+  },
+  {
+    "IconName": "59_Minimize.png",
+    "Tags": "Minimize",
+    "Path": "59_Minimize.png"
+  },
+  {
+    "IconName": "60_Minus.png",
+    "Tags": "Minus",
+    "Path": "60_Minus.png"
+  },
+  {
+    "IconName": "61_Mobile.png",
+    "Tags": "Mobile",
+    "Path": "61_Mobile.png"
+  },
+  {
+    "IconName": "62_More-Horizontal.png",
+    "Tags": "More-Horizontal",
+    "Path": "62_More-Horizontal.png"
+  },
+  {
+    "IconName": "63_More-Vertical.png",
+    "Tags": "More-Vertical",
+    "Path": "63_More-Vertical.png"
+  },
+  {
+    "IconName": "64_Mute.png",
+    "Tags": "Mute",
+    "Path": "64_Mute.png"
+  },
+  {
+    "IconName": "65_Navigation.png",
+    "Tags": "Navigation",
+    "Path": "65_Navigation.png"
+  },
+  {
+    "IconName": "66_Notification.png",
+    "Tags": "Notification",
+    "Path": "66_Notification.png"
+  },
+  {
+    "IconName": "67_Pause.png",
+    "Tags": "Pause",
+    "Path": "67_Pause.png"
+  },
+  {
+    "IconName": "68_People.png",
+    "Tags": "People",
+    "Path": "68_People.png"
+  },
+  {
+    "IconName": "69_Play.png",
+    "Tags": "Play",
+    "Path": "69_Play.png"
+  },
+  {
+    "IconName": "70_Raining.png",
+    "Tags": "Raining",
+    "Path": "70_Raining.png"
+  },
+  {
+    "IconName": "71_Redo.png",
+    "Tags": "Redo",
+    "Path": "71_Redo.png"
+  },
+  {
+    "IconName": "72_Refresh.png",
+    "Tags": "Refresh",
+    "Path": "72_Refresh.png"
+  },
+  {
+    "IconName": "73_Restricted.png",
+    "Tags": "Restricted",
+    "Path": "73_Restricted.png"
+  },
+  {
+    "IconName": "74_Save.png",
+    "Tags": "Save",
+    "Path": "74_Save.png"
+  },
+  {
+    "IconName": "75_Scanner.png",
+    "Tags": "Scanner",
+    "Path": "75_Scanner.png"
+  },
+  {
+    "IconName": "76_Scissor-Cut.png",
+    "Tags": "Scissor-Cut",
+    "Path": "76_Scissor-Cut.png"
+  },
+  {
+    "IconName": "77_Search.png",
+    "Tags": "Search",
+    "Path": "77_Search.png"
+  },
+  {
+    "IconName": "78_Settings.png",
+    "Tags": "Settings",
+    "Path": "78_Settings.png"
+  },
+  {
+    "IconName": "79_Share.png",
+    "Tags": "Share",
+    "Path": "79_Share.png"
+  },
+  {
+    "IconName": "80_Star.png",
+    "Tags": "Star",
+    "Path": "80_Star.png"
+  },
+  {
+    "IconName": "81_Stop.png",
+    "Tags": "Stop",
+    "Path": "81_Stop.png"
+  },
+  {
+    "IconName": "82_Success-Positive.png",
+    "Tags": "Success-Positive",
+    "Path": "82_Success-Positive.png"
+  },
+  {
+    "IconName": "83_Suffle.png",
+    "Tags": "Suffle",
+    "Path": "83_Suffle.png"
+  },
+  {
+    "IconName": "84_Tablet.png",
+    "Tags": "Tablet",
+    "Path": "84_Tablet.png"
+  },
+  {
+    "IconName": "85_TIles.png",
+    "Tags": "TIles",
+    "Path": "85_TIles.png"
+  },
+  {
+    "IconName": "86_Toggle-Off.png",
+    "Tags": "Toggle-Off",
+    "Path": "86_Toggle-Off.png"
+  },
+  {
+    "IconName": "87_Toggle-on.png",
+    "Tags": "Toggle-on",
+    "Path": "87_Toggle-on.png"
+  },
+  {
+    "IconName": "88_Trend-Down.png",
+    "Tags": "Trend-Down",
+    "Path": "88_Trend-Down.png"
+  },
+  {
+    "IconName": "89_Trend-Up.png",
+    "Tags": "Trend-Up",
+    "Path": "89_Trend-Up.png"
+  },
+  {
+    "IconName": "90_Unchecked.png",
+    "Tags": "Unchecked",
+    "Path": "90_Unchecked.png"
+  },
+  {
+    "IconName": "91_Undo.png",
+    "Tags": "Undo",
+    "Path": "91_Undo.png"
+  },
+  {
+    "IconName": "92_Unlocked.png",
+    "Tags": "Unlocked",
+    "Path": "92_Unlocked.png"
+  },
+  {
+    "IconName": "93_Upload.png",
+    "Tags": "Upload",
+    "Path": "93_Upload.png"
+  },
+  {
+    "IconName": "94_Upward.png",
+    "Tags": "Upward",
+    "Path": "94_Upward.png"
+  },
+  {
+    "IconName": "95_User-Profile.png",
+    "Tags": "User-Profile",
+    "Path": "95_User-Profile.png"
+  },
+  {
+    "IconName": "96_Video.png",
+    "Tags": "Video",
+    "Path": "96_Video.png"
+  },
+  {
+    "IconName": "97_Volume-Full.png",
+    "Tags": "Volume-Full",
+    "Path": "97_Volume-Full.png"
+  },
+  {
+    "IconName": "98_Volume-Low.png",
+    "Tags": "Volume-Low",
+    "Path": "98_Volume-Low.png"
+  },
+  {
+    "IconName": "99_Warning.png",
+    "Tags": "Warning",
+    "Path": "99_Warning.png"
+  },
+  {
+    "IconName": "100_Wifi.png",
+    "Tags": "Wifi",
+    "Path": "100_Wifi.png"
+  },
+  {
+    "IconName": "101_Zoom-in.png",
+    "Tags": "Zoom-in",
+    "Path": "101_Zoom-in.png"
+  },
+  {
+    "IconName": "102_Zoom-Out.png",
+    "Tags": "Zoom-Out",
+    "Path": "102_Zoom-Out.png"
+  }
+]

@@ -12,6 +12,7 @@
     <link href="../../Assests/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../../Assests/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../Assests/js/script.js"></script>
 </head>
 
@@ -59,7 +60,7 @@
 
 
     <section class="section-works">
-        <!>
+        <! About and Features>
             <div class="container-section-work" style="margin-top: 2rem;">
                 <h3 style="color:#BABABA;font-size: 2rem">About Icon set</h3>
                 <div class="row">
@@ -70,7 +71,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="section-footer">
                 <div class="container-section-hero" style="margin-top: 2rem;">
                     <h3 style="color:#BABABA;font-size: 2rem;margin-bottom: 1.4rem">Features</h3>
@@ -111,10 +111,122 @@
 
                 </div>
             </div>
-
     </section>
 
+    <section class="section-works">
+        <div class="container-section-work" style="padding-top: 4vw !important;padding-bottom: 0 !important">
+            <div class="row">
+                <div class="col-8">
+                    <div class="form-group has-search">
+                        <span class="form-control-feedback"></span>
+                        <input type="text" id="myInput" onkeyup="iconSearchFn()" class="form-control IconSetinputBox" placeholder="Search">
+                    </div>
+                </div>
+                <div class="col-4">
 
+                    <button onclick="" class="seeProjectButton">Download Entire Icon Set</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-works" style="display: grid;">
+        <div class="container-section-work" style="padding-top: 0rem !important;padding-bottom: 0 !important">
+            <div class="iconList">
+            </div>
+        </div>
+        
+    </section>
+    
+    <section style="display: grid;" >
+     <div class="container-section-work">
+            <div class="row" style="margin-bottom: 8vw">
+                <div class="col-6">
+                    <button onclick="window.location.href = '';" class="seeProjectButton" style="left: 0 !important">Previous Project</button>
+                </div>
+
+                <div class="col-6">
+                    <button onclick="window.location.href = '';" class="seeProjectButton">Next Project</button>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+  
+
+    <script>
+        $(document).ready(function() {
+            $.getJSON('https://api.myjson.com/bins/y64le', function(cwData) {
+                var IconsArray = cwData;
+                var iconsListContainer = $(".iconList");
+                var ul = document.createElement('ul');
+                ul.setAttribute("class", "icons");
+                ul.setAttribute('style', 'padding-left: 0rem');
+                ul.setAttribute("id","myUL");
+                iconsListContainer[0].appendChild(ul);
+
+                for (var i = 0; i <= IconsArray.length - 1; i++) {
+
+                    var li = document.createElement('li');
+                    li.setAttribute("data-order", i);
+                    li.setAttribute("data-id", IconsArray[i].IconName);
+                    li.setAttribute("data-aliases", IconsArray[i].Tags);
+                    li.setAttribute("data-unicode", "");
+                    li.setAttribute("style", "display: list-item;list-style: none");
+
+                    var imageContainer = document.createElement("div");
+                    imageContainer.setAttribute("title", IconsArray[i].Tags);
+
+                    var img = document.createElement("img");
+                    img.setAttribute("src", "Icons-White/" + IconsArray[i].Path);
+                    img.setAttribute("style", "width: 100%");
+
+
+                    imageContainer.appendChild(img);
+                    imageContainer.style.background = '#212529';
+
+                    li.appendChild(imageContainer);
+
+                    ul.appendChild(li);
+
+                }
+            });
+
+        });
+
+        function iconSearchFn() {
+            var input, filter, ul, li, img, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                
+                txtValue = li[i].getAttribute("data-aliases");
+//                img = li[i].getElementsByTagName("img")[0];
+//                txtValue = img.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+
+            }
+        }
+                $(document).ready(function() {
+                    $("#myInput").on("keyup", function() {
+                        var value = $(this).val().toLowerCase();
+
+
+                        $("#myList li").filter(function() {
+                            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                        });
+
+                    });
+                });
+
+    </script>
 
 </body>
 
