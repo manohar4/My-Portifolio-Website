@@ -46,7 +46,13 @@ for 6 pixel used 0.3575rem
         width: 100%;
         height: 100%
     }
-
+    
+     .iconSetDownLoadId1{
+        display: none !important;
+    }
+    .iconSetDownLoadId2{
+        display: block !important;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -73,6 +79,13 @@ for 6 pixel used 0.3575rem
     .project_wireframes{
         width: 100%;
         height: 100%
+    }
+    
+    .iconSetDownLoadId1{
+        display: none !important;
+    }
+    .iconSetDownLoadId2{
+        display: block !important;
     }
 }
 
@@ -102,6 +115,13 @@ for 6 pixel used 0.3575rem
         width: auto
     }
     
+    .iconSetDownLoadId2{
+        display: none !important;
+    }
+    .iconSetDownLoadId1{
+        display: block !important;
+    }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -126,6 +146,13 @@ for 6 pixel used 0.3575rem
     .project_wireframes{
         height: 25.75rem;
     }
+    
+    .iconSetDownLoadId2{
+        display: none !important;
+    }
+    .iconSetDownLoadId1{
+        display: block !important;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -148,6 +175,13 @@ for 6 pixel used 0.3575rem
     .project_wireframes{
         height: 25.75rem;
     }
+    
+    .iconSetDownLoadId2{
+        display: none !important;
+    }
+    .iconSetDownLoadId1{
+        display: block !important;
+    }
 }
 
 @media only screen and (min-width: 1900px) {
@@ -168,6 +202,13 @@ for 6 pixel used 0.3575rem
 
     .project_wireframes{
         height: 25.75rem;
+    }
+    
+    .iconSetDownLoadId2{
+        display: none !important;
+    }
+    .iconSetDownLoadId1{
+        display: block !important;
     }
 }
 
@@ -190,6 +231,13 @@ for 6 pixel used 0.3575rem
 
     .project_wireframes{
         height: 25.75rem;
+    }
+    
+    .iconSetDownLoadId2{
+        display: none !important;
+    }
+    .iconSetDownLoadId1{
+        display: block !important;
     }
 }
 
