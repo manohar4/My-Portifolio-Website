@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+    <div id="bar"></div>
 
     <section class="section-hero">
         <!NavBar>
@@ -80,6 +80,7 @@
                                 <div class="card-body" style="text-align: left; height: 8.75rem">
                                     <img style="height:100%" src="Feature1.png" alt="Smiley face">
                                     <p style="color:#ffffff;font-size: 1.4rem;line-height: normal;margin-top: 2rem">Grid bounded</p>
+                                    <p style="color:#ffffff;font-size: 1.4rem;line-height: normal;margin-top: 2rem">bounded Grid</p>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +88,7 @@
                             <div class="card" style="background-color: #FFFFFF00; border: none">
                                 <div class="card-body" style="text-align: left; height: 8.75rem">
                                     <img style="height:100%" src="Feature2.png" alt="Smiley face">
-                                    <p style="color:#ffffff;font-size: 1.4rem;line-height: normal;margin-top: 2rem">Storke Consistency</p>
+                                    <p style="color:#ffffff;font-size: 1.4rem;line-height: normal;margin-top: 2rem">Stroke Consistency</p>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +125,7 @@
                 </div>
                 <div class="col-4">
 
-                    <button onclick="" class="seeProjectButton">Download Entire Icon Set</button>
+                    <button onclick="downloadIconSet()" class="seeProjectButton">Download Entire Icon Set</button>
                 </div>
             </div>
         </div>
@@ -135,11 +136,11 @@
             <div class="iconList">
             </div>
         </div>
-        
+
     </section>
-    
-    <section style="display: grid;" >
-     <div class="container-section-work">
+
+    <section style="display: grid;">
+        <div class="container-section-work">
             <div class="row" style="margin-bottom: 8vw">
                 <div class="col-6">
                     <button onclick="window.location.href = '';" class="seeProjectButton" style="left: 0 !important">Previous Project</button>
@@ -150,10 +151,10 @@
                 </div>
             </div>
         </div>
-    
+
     </section>
-    
-  
+
+
 
     <script>
         $(document).ready(function() {
@@ -163,7 +164,7 @@
                 var ul = document.createElement('ul');
                 ul.setAttribute("class", "icons");
                 ul.setAttribute('style', 'padding-left: 0rem');
-                ul.setAttribute("id","myUL");
+                ul.setAttribute("id", "myUL");
                 iconsListContainer[0].appendChild(ul);
 
                 for (var i = 0; i <= IconsArray.length - 1; i++) {
@@ -202,10 +203,10 @@
             ul = document.getElementById("myUL");
             li = ul.getElementsByTagName("li");
             for (i = 0; i < li.length; i++) {
-                
+
                 txtValue = li[i].getAttribute("data-aliases");
-//                img = li[i].getElementsByTagName("img")[0];
-//                txtValue = img.textContent || a.innerText;
+                //                img = li[i].getElementsByTagName("img")[0];
+                //                txtValue = img.textContent || a.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     li[i].style.display = "";
                 } else {
@@ -214,19 +215,31 @@
 
             }
         }
-                $(document).ready(function() {
-                    $("#myInput").on("keyup", function() {
-                        var value = $(this).val().toLowerCase();
+
+        function downloadIconSet() {
+            var element = document.createElement("a");
+            element.style.display = "none";
+            element.setAttribute("href", "iconsSet.zip");
+            element.setAttribute("download", "IconSet");
+            element.click();
+            element.remove()
+        }
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
 
 
-                        $("#myList li").filter(function() {
-                            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                        });
-
-                    });
+                $("#myList li").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                 });
 
+            });
+        });
+
     </script>
+
+
+
 
 </body>
 
