@@ -182,12 +182,19 @@
                     var img = document.createElement("img");
                     img.setAttribute("src", "Icons-White/" + IconsArray[i].Path);
                     img.setAttribute("style", "width: 100%");
+                    
+                    var textValue = document.createElement("span");
+                    textValue.innerHTML = IconsArray[i].Tags;
+                    textValue.setAttribute("style", "color:white");
 
 
                     imageContainer.appendChild(img);
-                    imageContainer.style.background = '#212529';
-
+                      imageContainer.appendChild(textValue);
+                    imageContainer.style.display = 'grid';
+                    imageContainer.style.textAlign = 'center';
+                    
                     li.appendChild(imageContainer);
+                  
 
                     ul.appendChild(li);
 
