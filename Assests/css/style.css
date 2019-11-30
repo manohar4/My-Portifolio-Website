@@ -277,6 +277,45 @@ body {
   background:#FF7600;
 }
 
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: 50%
+}
+.icon-scroll {
+    width: 1.4rem;
+    height: 2rem;
+    bottom:0rem;
+    border: 2px solid #fff;
+    border-radius: 25rem
+}
+@media (max-width: 767px) {
+    .icon-scroll {
+        position: relative
+    }
+}
+.icon-scroll:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    margin-left: -3px;
+    top: 0.5rem;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll
+}
+@keyframes scroll {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(26px)
+    }
+}
+
 /*Section-hero*/
 
 .section-hero {
@@ -422,7 +461,7 @@ body {
 
 .container-section-work {
     color: #FFFFFF !important;
-    padding: 2vw 4vw !important;
+    padding: 2vw 4vw;
 }
 
 
