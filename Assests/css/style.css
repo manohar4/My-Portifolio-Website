@@ -523,7 +523,8 @@ ul.icons li img {
 
 ul.icons li span {
     display: block;
-    line-height: 32px;
+    line-height: 1rem;
+    font-size: 0.8rem;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #ffffff;

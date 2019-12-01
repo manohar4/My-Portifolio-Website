@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="38" viewBox="0 0 175 38">
+  <g id="Group_1168" data-name="Group 1168" transform="translate(-5877 -2105)">
+    <rect id="Rectangle_2166" data-name="Rectangle 2166" width="175" height="38" rx="4" transform="translate(5877 2105)" fill="#f17c39"/>
+    <g id="Group_1167" data-name="Group 1167" transform="translate(5867 2092.215)">
+      <g id="Group_1152" data-name="Group 1152" transform="translate(41.209 21.705)">
+        <path id="Path_875" data-name="Path 875" d="M1.209.186A.6.6,0,0,0,1.04.6V1.04H.6a.6.6,0,0,0,0,1.209H1.04v.435a.6.6,0,0,0,1.209,0V2.249h.436a.6.6,0,0,0,0-1.209H2.249V.6A.6.6,0,0,0,1.209.186" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Group_1153" data-name="Group 1153" transform="translate(26.845 25.372)">
+        <path id="Path_876" data-name="Path 876" d="M5.432.033,0,0,2.668,16.984h6.5L11.834,0l-6.4.033" fill="#ff9100" fill-rule="evenodd"/>
+      </g>
+      <g id="Group_1154" data-name="Group 1154" transform="translate(26.845 25.372)">
+        <path id="Path_877" data-name="Path 877" d="M5.432.033,0,0,2.668,16.984H7.809L10.476,0,5.432.033" fill="#fd0" fill-rule="evenodd"/>
+      </g>
+      <g id="Group_1155" data-name="Group 1155" transform="translate(25.29 23.806)">
+        <path id="Path_878" data-name="Path 878" d="M0,1.566H14.017V0H0V1.566" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Group_1156" data-name="Group 1156" transform="translate(25.29 23.806)">
+        <path id="Path_879" data-name="Path 879" d="M0,1.566H-.476v.476H0V1.566m14.017,0v.476h.476V1.566h-.476m0-1.566h.476V-.476h-.476V0M0,0V-.476H-.476V0H0M0,2.042H14.017V1.091H0v.951m14.492-.476V0h-.951V1.566h.951M14.017-.476H0V.476H14.017V-.476M-.476,0V1.566H.476V0H-.476"/>
+      </g>
+      <g id="Group_1157" data-name="Group 1157" transform="translate(26.899 21.26)">
+        <path id="Path_880" data-name="Path 880" d="M9.7,0H1.019L0,2.349H10.719L9.7,0" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Group_1158" data-name="Group 1158" transform="translate(26.899 21.26)">
+        <path id="Path_881" data-name="Path 881" d="M9.7,0l.436-.189-.124-.286H9.7V0M1.019,0V-.476H.706L.582-.189,1.019,0M0,2.349-.436,2.16l-.288.665H0V2.349m10.719,0v.476h.724l-.288-.665-.436.189M9.7-.476H6.354V.476H9.7V-.476m-3.347,0H4.365V.476H6.354V-.476m-1.989,0H1.019V.476H4.365V-.476M.582-.189-.436,2.16l.873.378L1.455.189.582-.189M0,2.825H4.365V1.874H0v.951m4.365,0H6.354V1.874H4.365v.951m1.989,0h4.365V1.874H6.354v.951m4.8-.665L10.137-.189,9.264.189l1.019,2.349.873-.378" fill="#050505"/>
+      </g>
+      <g id="Group_1159" data-name="Group 1159" transform="translate(25.873 25.372)">
+        <path id="Path_882" data-name="Path 882" d="M6.4.033l0,.476h0l0-.475M0,0,0-.475l-.559,0L-.47.074,0,0M2.668,16.984l-.47.074.063.4h.407v-.475m7.469,0v.475h.407l.063-.4-.47-.074M12.8,0l.47.074.087-.552-.559,0L12.8,0M6.4-.443,0-.475,0,.475,6.4.508l0-.951M-.47.074,2.2,17.058l.939-.148L.47-.074-.47.074M2.668,17.459H3.25v-.951H2.668v.951m.582,0H9.555v-.951H3.25v.951m6.305,0h.582v-.951H9.555v.951m1.052-.4L13.274.074l-.939-.148L9.667,16.91l.939.148M12.8-.475,6.4-.443l0,.951,6.4-.033,0-.951"/>
+      </g>
+      <g id="Group_1160" data-name="Group 1160" transform="translate(25.635 30.168)">
+        <path id="Path_883" data-name="Path 883" d="M13.241,0H0L1.2,6.754,6.62,6.7l5.425.059L13.241,0" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Group_1161" data-name="Group 1161" transform="translate(25.635 30.168)">
+        <path id="Path_884" data-name="Path 884" d="M13.241,0l.468.083.1-.558h-.567V0M0,0V-.476H-.567l.1.558L0,0M1.2,6.754l-.468.083.07.4.4,0L1.2,6.754M6.62,6.7l.005-.476h-.01L6.62,6.7m5.425.059-.005.475.4,0,.07-.4-.468-.083m1.2-7.23H6.85V.476h6.391V-.476m-6.391,0h-.46V.476h.46V-.476m-.46,0H0V.476H6.391V-.476M-.468.083l1.2,6.754.936-.166L.468-.083-.468.083M1.2,7.23l5.425-.059-.01-.951L1.19,6.279l.01.951m5.415-.059,5.425.059.01-.951L6.626,6.22l-.01.951m5.9-.334,1.2-6.754-.936-.166-1.2,6.754.936.166"/>
+      </g>
+      <image id="Rectangle_2164" data-name="Rectangle 2164" width="5" height="5" transform="translate(18 25)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAQklEQVQImU3MwQ1AYBQE4b1IdEExXlMS6qEebdCAy+fgl5jjzGaTJOhRGPMTh5cbFUxNzLiwBUNbnC0u30Vhx4ruASR4TYk1VK71AAAAAElFTkSuQmCC"/>
+      <image id="Rectangle_2165" data-name="Rectangle 2165" width="3" height="3" transform="translate(40 32)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAJ0lEQVQImSXBQQ3AIAAAsUvwgAIkIAQhk4Pf7kEbBnZV+DwnLFzMH+36Gqk8ia8fAAAAAElFTkSuQmCC"/>
+      <g id="Group_1164" data-name="Group 1164" transform="translate(22.925 38.152)">
+        <path id="Path_885" data-name="Path 885" d="M.938,1.879A.94.94,0,1,0,0,.94a.939.939,0,0,0,.938.94" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <text id="Buy_me_a_coffee" data-name="Buy me a coffee" transform="translate(5917 2131)" fill="#fff" font-size="24" font-family="BrushScriptMT, Brush Script MT"><tspan x="0" y="0">Buy me a coffee</tspan></text>
+  </g>
+</svg>

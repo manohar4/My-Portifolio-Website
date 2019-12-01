@@ -20,10 +20,6 @@
     <script src="https://unpkg.com/html-api"></script>
     <script src="sendMail.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/nodemailer@6.3.1/lib/nodemailer.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
 </head>
 
 <body>
@@ -51,53 +47,100 @@
                 </div>
             </nav>
 
-            <div class="container-section-hero" style="margin-top: 48px">
+            <div class="container-section-hero" style="">
                 <div class="row">
-                    <div class="col-8">
-                        <h1 style="font-size: 36px">Hi Human. I’m Manohar, Multidisciplinary Designer Expertizing in UX and Visual Design</h1>
+
+                    <div class="col-12 col-md-3" style="text-align: center">
+                        <div style="height: 4rem; width: 100%">
+                            <img style="max-width: 100%; width: 80%;height: 100%" src="ToolkitMedia/IconsGroup.svg" alt="Smiley face">
+                        </div>
+                        <img id="featuresId" style="max-width: 100%;margin-top: 2rem " src="ToolkitMedia/Features.svg" alt="Smiley face">
+
                     </div>
-                    <div class="col-2">
+                    <div class="col-12 col-md-9" style="text-align: center">
+
+                        <div style="height: 4rem; width: 100%;padding: 1rem 0rem;">
+                            <div style="position: relative;width: fit-content;float:right">
+                                <a target="_blank" href="https://www.buymeacoffee.com/y9QhusS"><img style="height:3rem" src="ToolkitMedia/buyMeACoffee.svg">
+
+                                </a>
+
+                                <!--                                <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/y9QhusS"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>-->
+
+                            </div>
+                            <div style="position: relative;width: fit-content;float:right">
+                                <button onclick="window.open('https://adobe.com/go/xd_plugins_discover_plugin?pluginId=0d1338e0','_blank')" style="font-size: 1rem;padding: 0.4rem 1rem;margin-top: 0;margin-right:1rem  !important;" class="sayHiButton">Install</button>
+                            </div>
+
+                        </div>
+                        <div id="videoPlayerContainerID" style="width: 100%;background-color: #2A0C1E;border-radius: 0.6rem;margin-top: 2rem">
+                            <div style=" border-radius: 0.4rem;width: 80%;height: 100%;margin-top: 2rem;padding: 1rem;margin: auto">
+                                <button onclick="onPrevious()" style="background: none;border: none;cursor: pointer;float: left;"> <img src="ToolkitMedia/previous.svg"></button>
+                                <span id="featureLabelId" style="margin: auto;color: white;width: 10rem"> Find and Replace </span>
+                                <button onclick="onNext()" style="background: none;border: none;cursor: pointer;float: right;"><img src="ToolkitMedia/next.svg"></button>
+                                <div style=" height: 100%; position: relative; overflow: hidden;"><iframe id="videoId" frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Flv3ljz39pjo7v3g%2FFindandReplace.mov%3Fraw%3D1&poster=&time=false&progressBar=true&overlay=true&muteButton=false&fullscreenButton=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row" style="margin-top: 16px">
-                    <div class="col">
-                        <h3 style="color:#EDA660;font-size: 24px">OBSERVER.THINKER.DESIGNER.</h3>
-                        <button type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="sayHiButton">Say HI</button>
-                    </div>
-                    <div class="col">
-                        <img style="width: 90%" src="Media/homePageillustration.png" alt="Smiley face">
-                    </div>
+
                 </div>
             </div>
+
+
+
     </section>
 
     <script>
-        function sendMessage(userId, email, callback) {
+        $(document).ready(function() {
+            var featureBoxheight = $("#featuresId").height();
+            $("#videoPlayerContainerID")[0].style.height = featureBoxheight + "px";
+            window.currentFeature = 1;
+        });
 
-            //            fetch('http://localhost:3000/sendEmail', {
-            //                    method: 'GET',
-            //                    headers: new Headers()
-            //                }).then((res) => res.json())
-            //                .then((data) => console.log(data))
-            //                .catch((err) => console.log(err))
+        function onPrevious() {
+            if (window.currentFeature === 1) {
+                i = 4;
+            } else {
+                var i = window.currentFeature - 1;
+            }
+            var player = $("#videoId");
+            linkUpdate(i);
+        }
 
-            var request = new XMLHttpRequest()
-
-            request.open('GET', 'http://localhost:3000/sendEmail', true)
-            request.onload = function() {
-                // Begin accessing JSON data here
-                var data = JSON.parse(this.response)
-
-                if (request.status >= 200 && request.status < 400) {
-                    data.forEach(movie => {
-                        console.log(movie.title)
-                    })
-                } else {
-                    console.log('error');
-                }
+        function onNext() {
+            if (window.currentFeature === 4) {
+                i = 1;
+            } else {
+                var i = window.currentFeature + 1;
             }
 
-            request.send();
+            var player = $("#videoId");
+            linkUpdate(i);
+        }
+
+        function linkUpdate(i) {
+            var player = $("#videoId")[0];
+            if (i === 1) {
+                 window.currentFeature = 1;
+                $("#featureLabelId")[0].innerHTML= "Find and Replace";
+                player.src = "https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Flv3ljz39pjo7v3g%2FFindandReplace.mov%3Fraw%3D1&poster=&time=false&autoplay=true&progressBar=true&overlay=true&muteButton=false&fullscreenButton=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7";
+            }
+
+            if (i === 2) {
+                window.currentFeature = 2;
+                $("#featureLabelId")[0].innerHTML= "Swap any 2 items";
+                player.src = "https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Ffeiuhih3v51b1on%2FSwap%2520any%25202%2520Items.mov%3Fraw%3D1&poster=&time=false&progressBar=true&overlay=true&muteButton=false&autoplay=true&fullscreenButton=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7"
+            }
+            if (i === 3) {
+                window.currentFeature = 3;
+                $("#featureLabelId")[0].innerHTML= "Group Cleaner";
+                player.src = "https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2F0wns2l1o79uj01a%2FGroupCleaner.mov%3Fraw%3D1&poster=&time=false&progressBar=true&overlay=true&muteButton=false&fullscreenButton=true&autoplay=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7"
+            }
+            if (i === 4) {
+                window.currentFeature = 4;
+                $("#featureLabelId")[0].innerHTML= "Swap Fill and border";
+                player.src = "https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fx486mz5nr4zatpb%2FSwapFillAndBorder.mov%3Fraw%3D1&poster=&time=false&progressBar=true&overlay=true&muteButton=false&fullscreenButton=true&autoplay=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7"
+            }
         }
 
     </script>
