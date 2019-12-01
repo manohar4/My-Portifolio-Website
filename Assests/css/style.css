@@ -593,9 +593,7 @@ ul.icons li:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
-    .nav-link {
-    display: block;
-        padding: 1.5rem 1rem !important}
+
     
 
 }
