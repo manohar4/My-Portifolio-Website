@@ -20,15 +20,7 @@ for 6 pixel used 0.3575rem
         font-size: 12px;
     }
     
-    .nav-link {
-    display: block;
-        padding: 1.5rem 1rem !important}
     
-    .navbar-nav{
-            width: 100vw;
-    background: #0e0e0e;
-    margin: 0 !IMPORTANT;
-    }
 
     .homePageIllustration {
         margin-top: 4rem;
@@ -70,10 +62,7 @@ for 6 pixel used 0.3575rem
     html {
         font-size: 13px;
     }
- 
-    .nav-link {
-    display: block;
-        padding: 1.5rem 1rem !important}
+
     
 
     .homePageIllustration {
@@ -602,10 +591,20 @@ ul.icons li:hover {
 /* media Queries */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    
+    .nav-link {
+    display: block;
+        padding: 1.5rem 1rem !important}
+    
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+  
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
