@@ -323,11 +323,26 @@ body {
 }
 
 /*NavBar*/
+.nav-link:hover {
+  opacity: 1;
+}
 
+.nav-link{
+    position: relative;
+}
+
+
+.nav-link::before {
+  transition: 300ms;
+  height: 0.3rem;
+  content: "";
+  position: absolute;
+  background-color: #FF7600;
+}
 .navbar-New {
     padding: 0rem !important;
     padding-top: 1rem !important;
-
+    background-image: linear-gradient(#0e0e0e,#0e0e0e90,#ffffff00);
 }
 
 .navbar-brand-New {
@@ -338,7 +353,40 @@ body {
 
 .nav-link-new {
     color: white !important;
+    padding-bottom: 0.1rem !important;
 }
+
+
+.underline {
+    margin-left: 0.5rem;
+	height: 0.2rem;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.3s;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: -0.4rem;
+}
+
+li.active-link .underline {
+	width: 80%;
+	background-color: #FF7600;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+li:hover .underline {
+	background-color: #FF7600;
+	width: 80%;
+}
+
+li:active .underline {
+	transition: none;
+	background-color: #FF7600;
+}
+
+
+
 
 .collapse ul {
     margin-right: 4vw !important;
