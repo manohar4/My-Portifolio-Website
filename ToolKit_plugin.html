@@ -95,8 +95,16 @@
 
     <script>
         $(document).ready(function() {
-            var featureBoxheight = $("#featuresId").height();
+            
+            if((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)){
+                 //   var featureBoxheight = $("#featuresId").height();
+            $("#videoPlayerContainerID")[0].style.height = '50vh';
+            
+               }
+            else{
+                var featureBoxheight = $("#featuresId").height();
             $("#videoPlayerContainerID")[0].style.height = featureBoxheight + "px";
+            }
             window.currentFeature = 1;
         });
 
