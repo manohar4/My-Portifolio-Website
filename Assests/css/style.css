@@ -274,13 +274,12 @@ body {
 #bar {
   position:fixed;
   width:0%;
-  height:4px;
+  height:0.2rem;
   top:0;
   left:0;
-  z-index:9;
+  z-index:2000;
   background:#FF7600;
 }
-
 .icon-scroll,
 .icon-scroll:before {
     position: absolute;
