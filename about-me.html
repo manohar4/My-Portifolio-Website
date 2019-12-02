@@ -56,8 +56,14 @@
                         <h3 style="color:#EDA660;font-size: 1.5rem;margin-top: 3rem">Little more about me</h3>
                         <p style="font-size: 1.24rem;margin-top: 1rem">I have been in design industry for 3 year, expertizing in UX design and Human centric design. I call myself a multidisciplinary design because I love graphic and Motion graphic designing as well. </p>
                     </div>
-                    <div class="col-12 col-sm-12  col-md-6 col-lg-5 col-xl-4" style="text-align: center">
-                        <img class="myBitemoji" src="Media/snapChatSticker.png" alt="Smiley face">
+                    <div class="col-12 col-sm-12  col-md-6 col-lg-5 col-xl-4 animojiCol" style="text-align: center">
+                        <!--                        <img class="myBitemoji" src="Media/snapChatSticker.png" alt="Smiley face">-->
+
+                        <video class="animoji" width="100%" height="100%" autoplay="false" muted="" >
+                            <source id="animojiSrcId" src="Media/Animoji/9.mp4" type="video/mp4">
+
+
+                        </video>
                     </div>
                 </div>
             </div>
@@ -313,30 +319,55 @@
 
 
     <script>
-        //        $(document).ready(function() {
-        //            $("#testimonial-slider").owlCarousel({
-        //                items: 2,
-        //                itemsDesktop: [1000, 2],
-        //                itemsDesktopSmall: [990, 1],
-        //                itemsTablet: [768, 1],
-        //                pagination: true,
-        //                navigation: false,
-        //                navigationText: ["", ""],
-        //                slideSpeed: 1000,
-        //                autoPlay: true
-        //            });
-        
-        
-        
-        
-//        $(document).ready(function() {
-//            $('.nav-link').on('click', function() {
-//                $('.active-link').removeClass('active-link');
-//                $(this).addClass('active-link');
-//            });
-//
-//
-//        });
+        $(document).ready(function() {
+
+            function random_item(items) {
+
+                return items[Math.floor(Math.random() * items.length)];
+
+            }
+
+            //            $(".animoji").on("loadstart", function() {
+            //                $(".animoji")[0].play();
+            //            });
+
+            $(".animojiCol").on("mouseover", function(event) {
+
+                $(".animoji")[0].removeChild($(".animoji")[0].firstElementChild);
+
+                var source = document.createElement("SOURCE");
+
+                const items = ["Media/Animoji/1.mp4",
+                    "Media/Animoji/2.mp4",
+                    "Media/Animoji/3.mp4",
+                    "Media/Animoji/4.mp4",
+                    "Media/Animoji/5.mp4",
+                    "Media/Animoji/6.mp4",
+                    "Media/Animoji/7.mp4",
+                    "Media/Animoji/8.mp4",
+                    "Media/Animoji/9.mp4",
+                    "Media/Animoji/10.mp4",
+                    "Media/Animoji/11.mp4",
+                    "Media/Animoji/12.mp4",
+                    "Media/Animoji/13.mp4"
+                ];
+                source.setAttribute("src", random_item(items));
+
+                $(".animoji")[0].appendChild(source);
+                $(".animoji")[0].load(function(responseTxt, statusTxt, xhr) {
+                    if (statusTxt == "success"){
+                        $(".animoji")[0].play()
+                        }
+                    if (statusTxt == "error")
+                        alert("Error: " + xhr.status + ": " + xhr.statusText);
+
+
+                });
+//                var funcDelay = setTimeout($(".animoji")[0].play(), 1000)
+
+
+            });
+        });
 
     </script>
 
