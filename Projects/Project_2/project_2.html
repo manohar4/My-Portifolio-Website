@@ -21,7 +21,7 @@
 
     <section class="section-hero">
         <!NavBar>
-             <nav class="navbar navbar-New navbar-expand-lg navbar-light fixed-top">
+            <nav class="navbar navbar-New navbar-expand-lg navbar-light fixed-top">
                 <a class="navbar-brand navbar-brand-New" href="index.html">ManoharManu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" style="background-color: white"></span>
@@ -131,7 +131,7 @@
                 <div class="col-4">
 
                     <button onclick="downloadIconSet()" id="" class="seeProjectButton iconSetDownLoadId1">Download Icon Set</button>
-                    <button onclick="downloadIconSet()" id="" class="seeProjectButton iconSetDownLoadId2" >Download</button>
+                    <button onclick="downloadIconSet()" id="" class="seeProjectButton iconSetDownLoadId2">Download</button>
                 </div>
             </div>
         </div>
@@ -190,19 +190,28 @@
                     var img = document.createElement("img");
                     img.setAttribute("src", "Icons-White/" + IconsArray[i].Path);
                     img.setAttribute("style", "width: 100%");
-                    
+
                     var textValue = document.createElement("span");
                     textValue.innerHTML = IconsArray[i].Tags;
                     textValue.setAttribute("style", "color:white");
 
 
                     imageContainer.appendChild(img);
-                      imageContainer.appendChild(textValue);
+
+                    var mq = window.matchMedia("(max-width: 768px)");
+                    if (mq.matches) {
+                        // window width is at less than 570px
+                    } else {
+                        // window width is greater than 570px
+                        imageContainer.appendChild(textValue);
+                    }
+
+                    
                     imageContainer.style.display = 'grid';
                     imageContainer.style.textAlign = 'center';
-                    
+
                     li.appendChild(imageContainer);
-                  
+
 
                     ul.appendChild(li);
 
