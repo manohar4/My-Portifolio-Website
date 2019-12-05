@@ -32,11 +32,17 @@
      
  }
 
+//Scrollind down to show the pagination of projects
 
-// $(document).ready(function () {
-//
-//     $('.nav-link').on('click', function () {
-//         $('.active-link').removeClass('active-link');
-//         $(this).parent().addClass('active-link');
-//     });
-// });
+
+var myScrollFunc = function () {
+    var myID = document.getElementById("paginationId");
+    var y = window.scrollY;
+    if (y >= 800) {
+        myID.className = "paginationClass show"
+    } else {
+        myID.className = "paginationClass hide"
+    }
+};
+
+window.addEventListener("scroll", myScrollFunc);
