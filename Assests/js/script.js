@@ -38,11 +38,13 @@
 var myScrollFunc = function () {
     var myID = document.getElementById("paginationId");
     var y = window.scrollY;
+    if(myID){
     if (y >= 800) {
         myID.className = "paginationClass show"
     } else {
         myID.className = "paginationClass hide"
     }
+}
 };
 
 window.addEventListener("scroll", myScrollFunc);

@@ -50,6 +50,12 @@ for 6 pixel used 0.3575rem
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/LandingImage_Mobile.png")
     }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/LandingImage_Mobile.png")
+    }
     .project_wireframes{
         width: 100%;
         height: 100%
@@ -92,6 +98,12 @@ for 6 pixel used 0.3575rem
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/landingImage.png")
     }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/landingImage.png")
+    }
     .project_wireframes{
         width: 100%;
         height: 100%
@@ -131,6 +143,12 @@ for 6 pixel used 0.3575rem
     }
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/landingImage.png")
+    }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/landingImage.png")
     }
     .project_wireframes{
         height: 22rem;
@@ -173,6 +191,12 @@ for 6 pixel used 0.3575rem
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/landingImage.png")
     }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/landingImage.png")
+    }
     .project_wireframes{
         height: 25.75rem;
     }
@@ -208,6 +232,12 @@ for 6 pixel used 0.3575rem
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/landingImage.png")
     }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/landingImage.png")
+    }
     .project_wireframes{
         height: 25.75rem;
     }
@@ -240,6 +270,12 @@ for 6 pixel used 0.3575rem
     }
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/landingImage.png")
+    }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/landingImage.png")
     }
     .project_wireframes{
         height: 25.75rem;
@@ -274,6 +310,12 @@ for 6 pixel used 0.3575rem
     }
     .project_fun_1_heroImage {
         content: url("../../Projects/Project_Fun_1/landingImage.png")
+    }
+    .project_fun_2_heroImage {
+        content: url("../../Projects/Project_Fun_2/Words_Animation/slice.gif")
+    }
+    .project_fun_3_heroImage{
+        content: url("../../Projects/Project_Fun_3/landingImage.png")
     }
     .project_wireframes{
         height: 25.75rem;
