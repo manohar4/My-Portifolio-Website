@@ -67,6 +67,10 @@ for 6 pixel used 0.3575rem
     .iconSetDownLoadId2{
         display: block !important;
     }
+
+    .carousel-inner{
+        height: 19rem !important;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -115,6 +119,9 @@ for 6 pixel used 0.3575rem
     .iconSetDownLoadId2{
         display: block !important;
     }
+    .carousel-inner{
+        height: 16rem !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -160,6 +167,9 @@ for 6 pixel used 0.3575rem
     }
     .iconSetDownLoadId1{
         display: block !important;
+    }
+    .carousel-inner{
+        height: 12rem !important;
     }
     
 }
@@ -740,3 +750,66 @@ ul.icons li:hover {
 
 
 /* testimonial Css*/
+.testimonials {
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4vw 0 4vw;
+    color: #ffffff;
+    position: relative;
+}
+.testimonials:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.testimonials .heading h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.testimonials .heading h2 span {
+    color: #ff0000;
+}
+
+.testimonials p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #d1e5e7;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.testimonials .carousel-inner .carousel-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.testimonials .carousel-inner .carousel-item h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #e2e1e1;
+    margin-bottom: 1rem;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -2.2rem;
+}
+
+.testimonials .carousel-indicators li {
+    background-color: #b8b7b7;
+    border-radius: 4rem;
+    height: 0.2rem;
+    width: 3rem;
+}
+
+.testimonials .carousel-indicators .active {
+    background-color: #ff0000;
+}
+
