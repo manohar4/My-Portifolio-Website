@@ -28,9 +28,20 @@
         <!NavBar>
             <nav class="navbar navbar-New navbar-expand-lg navbar-light fixed-top">
                 <a class="navbar-brand navbar-brand-New" href="index.html">ManoharManu</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="background-color: white"></span>
-                </button>
+              
+
+                <div  class="mobileMenu" style="position:absolute">
+                    <input type="checkbox" id="overlay-input" />
+                    <label for="overlay-input" id="overlay-button"><span></span></label>
+                    <div id="overlay">
+                        <ul>
+                        <li><a href="index.html">&#x270D;&#x1F3FB; Works</a></li>
+                        <li><a href="ToolKit_Plugin.html">&#x1F50C;  ToolKit</a></li>
+                        <li><a href="about-me.html">&#x1F64B;&#x1F3FB; About me</a></li>
+                        </ul>
+                    </div>
+                </div>   
+              
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
@@ -81,7 +92,7 @@
                                 <button onclick="onPrevious()" style="background: none;border: none;cursor: pointer;float: left;"> <img src="ToolkitMedia/previous.svg"></button>
                                 <span id="featureLabelId" style="margin: auto;color: white;width: 10rem;font-size: 1.4rem"> Find and Replace </span>
                                 <button onclick="onNext()" style="background: none;border: none;cursor: pointer;float: right;"><img src="ToolkitMedia/next.svg"></button>
-                                <div style=" height: 100%; position: relative; overflow: hidden;"><iframe id="videoId" frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Flv3ljz39pjo7v3g%2FFindandReplace.mov%3Fraw%3D1&poster=&time=false&progressBar=true&overlay=true&muteButton=false&fullscreenButton=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>
+                                <div style=" height: 100%; position: relative; overflow: hidden;"><iframe id="videoId" frameborder="0" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Flv3ljz39pjo7v3g%2FFindandReplace.mov%3Fraw%3D1&poster=&time=false&progressBar=true&overlay=true&muteButton=false&fullscreenButton=true&style=light&quality=auto&playButton=true&overlayColor=%260F1D&overlayOpacity=0.7" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>
                             </div>
                         </div>
                     </div>
