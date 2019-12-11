@@ -21,7 +21,10 @@
     <script src="https://unpkg.com/html-api"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
 
-
+    
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
 </head>
 
 <body>
@@ -74,7 +77,7 @@
                         <h3 style="color:#EDA660;font-size: 1.5rem">OBSERVER.THINKER.DESIGNER.</h3>
                         <button type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="sayHiButton">Say Hi</button>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="padding: 3rem; padding-top: 0rem">
+                    <div data-aos="fade-up"  data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="padding: 3rem; padding-top: 0rem">
                         <img class="homePageIllustration" style="width: 100%" src="Media/homePageillustration.png" alt="Smiley face">
                     </div>
                 </div>
@@ -85,7 +88,7 @@
         <div class="container-section-hero" style="margin-top: 3rem">
             <h3 style="color:#EEEEEE;font-size: 2.4rem;margin-bottom: 2rem">Works</h3>
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div data-aos="fade-up"  data-aos-delay="10" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-md-4">
                     <div class="card" style="background-color: #FFFFFF00">
                         <div class="card-body">
                             <img style="width: 100%; border-radius: 1rem" src="Projects/Project_1/CoverPic.png" alt="Smiley face">
@@ -104,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div data-aos="fade-up"  data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-md-4">
                     <div class="card" style="background-color: #FFFFFF00">
                         <div class="card-body">
                             <img style="width: 100%; border-radius: 1rem" src="Projects/Project_2/Project%202%20Cover%20Pic.png" alt="Smiley face">
@@ -123,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div data-aos="fade-up"  data-aos-delay="200" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-md-4">
                     <div class="card" style="background-color: #FFFFFF00">
                         <div class="card-body">
                             <img style="width: 100%; border-radius: 1rem" src="Projects/Project_3/cover.png" alt="Smiley face">
@@ -151,7 +154,7 @@
         <div class="container-section-hero">
             <h3 style="color:#EEEEEE;font-size: 2.4rem;margin-bottom: 2rem">Other Fun Work</h3>
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div data-aos="fade-up"  data-aos-delay="10" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-md-4">
                     <div class="card" style="background-color: #FFFFFF00">
                         <div class="card-body">
                             <img style="width: 100%; border-radius: 1rem" src="Projects/Project_Fun_1/coverImage.png" alt="">
@@ -168,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div data-aos="fade-up"  data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-md-4">
                     <div class="card" style="background-color: #FFFFFF00">
                         <div class="card-body">
                             <img class="gridAspectRatio" style="width: 100%; border-radius: 1rem" src="Projects/Project_Fun_2/Words_Animation/slice.gif" alt="Smiley face">
@@ -187,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div data-aos="fade-up"  data-aos-delay="200" data-aos-duration="800" data-aos-easing="ease-in-out" class="col-12 col-md-4">
                     <div class="card" style="background-color: #FFFFFF00">
                         <div class="card-body">
                             <img class="gridAspectRatio" style="width: 100%; border-radius: 1rem" src="Projects/Project_Fun_3/coverImage.png" alt="Smiley face">
@@ -242,8 +245,8 @@
                 </div>
 
                 <div class="col-12 col-md-6" style="border-left: 1px solid #707070; text-align: center">
-                    <h3>Thank You for Visiting</h3>
-                    <img style="width: 80%" src="Media/FooterIllustration.png" />
+                    <h3 data-aos="fade-up"  data-aos-delay="50" data-aos-duration="800" data-aos-easing="ease-in-out">Thank You for Visiting</h3>
+                    <img data-aos="fade-up"  data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out" style="width: 80%" src="Media/FooterIllustration.png" />
                 </div>
 
             </div>
@@ -322,6 +325,9 @@
 $('.gridAspectRatio').css({'height':cw+'px'});
        
 
+    </script>
+     <script>
+      AOS.init();
     </script>
 </body>
 
