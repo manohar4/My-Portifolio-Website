@@ -20,14 +20,15 @@
     </script>
     <script src="https://unpkg.com/html-api"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
-
     
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 </head>
 
 <body>
+        <div class="elfsight-app-763f9c75-0156-49d9-9db6-6e47f6e84335"></div>
     <div id="bar"></div>
     <section class="section-hero">
         <!NavBar>
@@ -255,11 +256,11 @@
 
 
     <!-- Modal -->
-    <form class="needs-validation" onSubmit="sendMessage()">
+    <form  action="https://formcarry.com/s/2d8bGYnYNZ6" method="POST" accept-charset="UTF-8" class="needs-validation" onSubmit="sendMessage()">
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog  modal-dialog-centered " role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <!-- <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -286,11 +287,14 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="submit" class="btn btn-primary">Send message</button>
-                    </div>
+                    </div> -->
+                    <div class="elfsight-app-1a63aa44-1212-41d3-be80-f7b552ac9335"></div>
                 </div>
             </div>
         </div>
+      
     </form>
+
 
     <script>
         function sendMessage(userId, email, callback) {
@@ -302,27 +306,26 @@
             //                .then((data) => console.log(data))
             //                .catch((err) => console.log(err))
 
-            var request = new XMLHttpRequest()
+           var request = new XMLHttpRequest();
 
-            request.open('GET', 'http://localhost:3000/sendEmail', true)
-            request.onload = function() {
-                // Begin accessing JSON data here
-                var data = JSON.parse(this.response)
+            request.open('Post', 'https://contact.do/s6wQ', false);
+            var formData = new FormData();
 
-                if (request.status >= 200 && request.status < 400) {
-                    data.forEach(movie => {
-                        console.log(movie.title)
-                    })
-                } else {
-                    console.log('error');
-                }
-            }
+// formData.append("email", "manoharmanu4444@gmail.com");
+// formData.append("message", "this is sent from your code");
+// formData.append("submit", "Send message");
+// formData.append("capcana", "");
+// formData.append("g-recaptcha-response", "");
+// formData.append("captcha-response", "");
+//             request.send(formData);
 
-            request.send();
+            console.log(request.response);
+
+            //request.send();
         }
         
         var cw = $('.gridAspectRatio').width();
-$('.gridAspectRatio').css({'height':cw+'px'});
+        $('.gridAspectRatio').css({'height':cw+'px'});
        
 
     </script>

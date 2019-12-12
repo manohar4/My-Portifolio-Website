@@ -667,6 +667,9 @@ li:active .underline {
 
 .form-control{
     font-size: 1.2rem !important;
+    
+}
+.IconSetinputBox{
     padding: 0.9rem 2.375rem !important;
     background-color: #212121 !important;
     border:  3px solid #ced4da40 !important;
