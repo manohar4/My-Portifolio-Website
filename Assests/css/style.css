@@ -948,4 +948,62 @@ ul.icons li:hover {
     font-size: 1.5em;
   }
 
+
+  /* floating hi gif toot tip*/
+  .tooltipNew {
+    position: fixed ;
+    bottom:2vh;
+    right: 4vh;
+    width: 4rem;
+    height:4rem;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+
+  }
   
+  .tooltipNew .tooltiptextNew {
+    visibility: visible !important;
+    width: auto;
+    background-color: #FF7600;
+    color: #fff;
+    text-align: right;
+    border-radius: 4px;
+    padding: 4px 10px;
+    top: 1rem;
+    display: none;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+
+    
+  }
+  
+  .floating:hover + .tooltiptextNew {
+    visibility: visible !important;
+  }
+
+  .tooltipNew .tooltiptextNew::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ff7600;
+  }
+  
+.tooltipNewWhatsapp{
+    width: 2rem;
+    height:2rem;
+    visibility: visible !important;
+    text-align: center;
+    top: -2rem;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    display: none;
+}

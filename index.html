@@ -20,15 +20,46 @@
     </script>
     <script src="https://unpkg.com/html-api"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<!-- Start of Async Callbell Code -->
+<!-- <script>
+        window.callbellSettings = {
+          token: "2zuwt9DWzb6XxRz2t35cGSbr"
+        };
+      </script>
+      <script>
+        (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+      </script> -->
+      <!-- End of Async Callbell Code -->
+
     
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
- 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 </head>
 
 <body>
-        <div class="elfsight-app-763f9c75-0156-49d9-9db6-6e47f6e84335"></div>
+        <!-- <div class="WhatsappFloating tooltip" style="z-index:1000;position: fixed;bottom: 2vh;right:4vh;cursor:pointer" >
+                <video    style="border-radius:10rem" style="width: 4rem;height: 4rem" autoplay="true" loop muted="">
+                        <source id="animojiSrcId" src="Media/waving80*80.mp4" type="video/mp4">
+                          
+                    </video>
+                    <span class="tooltiptext">Tooltip text</span>
+            
+           </div> -->
+
+        <div id="tooltipNew" class="tooltipNew">
+            <video class="floating"   style="border-radius:10rem;width:100%;height:100%;cursor: pointer;" autoplay="true" loop muted="">
+                              <source src="Media/waving80*80.mp4" type="video/mp4">
+                                  
+                            </video>
+          <span  id="tooltiptextNew" style="font-size: smaller;font-weight: 700;white-space: pre;" class="tooltiptextNew">Hey &#128075; Good Human!</span>
+          <div id="tooltipNewWhatsapp" class="tooltipNewWhatsapp">
+                <img  style="width:100%;height:100%;cursor: pointer;" src="Media/whatsppLogo.png">
+            </div>
+        </div>
+        
+
     <div id="bar"></div>
     <section class="section-hero">
         <!NavBar>
@@ -256,7 +287,7 @@
 
 
     <!-- Modal -->
-    <form  action="https://formcarry.com/s/2d8bGYnYNZ6" method="POST" accept-charset="UTF-8" class="needs-validation" onSubmit="sendMessage()">
+    <form accept-charset="UTF-8" class="needs-validation" onSubmit="sendMessage()">
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog  modal-dialog-centered " role="document">
                 <div class="modal-content">
@@ -288,7 +319,7 @@
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="submit" class="btn btn-primary">Send message</button>
                     </div> -->
-                    <div class="elfsight-app-1a63aa44-1212-41d3-be80-f7b552ac9335"></div>
+<div class="elfsight-app-1a63aa44-1212-41d3-be80-f7b552ac9335"></div>
                 </div>
             </div>
         </div>
@@ -309,28 +340,42 @@
            var request = new XMLHttpRequest();
 
             request.open('Post', 'https://contact.do/s6wQ', false);
-            var formData = new FormData();
-
-// formData.append("email", "manoharmanu4444@gmail.com");
-// formData.append("message", "this is sent from your code");
-// formData.append("submit", "Send message");
-// formData.append("capcana", "");
-// formData.append("g-recaptcha-response", "");
-// formData.append("captcha-response", "");
-//             request.send(formData);
+            var formData = new FormData()
 
             console.log(request.response);
 
-            //request.send();
         }
         
         var cw = $('.gridAspectRatio').width();
         $('.gridAspectRatio').css({'height':cw+'px'});
-       
+
+
+        /*floating Button */
+        $(document).ready(function() {
+            window.floatingCheck = false;
+            setTimeout(function(){ $("#tooltipNew").show(); }, 4000);
+            setTimeout(function(){ $("#tooltiptextNew").show(); }, 6000);
+            setTimeout(function(){ $("#tooltiptextNew").hide(); }, 10000);
+            $('#tooltipNew').click(function() {
+                if(!window.floatingCheck){
+                    $("#tooltipNewWhatsapp").show();
+                    window.floatingCheck = true;
+                }
+                else{
+                    $("#tooltipNewWhatsapp").hide();
+                    window.floatingCheck = false;
+                }
+                
+            });
+            $("#tooltipNewWhatsapp").click(function(){
+                window.open('https://web.whatsapp.com/send?phone=918790357714','_newtab')
+            });
+            
+});
 
     </script>
-     <script>
-      AOS.init();
+    <script>
+    AOS.init();
     </script>
 </body>
 
