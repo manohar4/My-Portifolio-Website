@@ -49,7 +49,7 @@
            </div> -->
 
         <div id="tooltipNew" class="tooltipNew">
-            <video class="floating"   style="border-radius:10rem;width:100%;height:100%;cursor: pointer;" autoplay="true" loop muted="">
+            <video class="floating"  onmouseover="showToolTip()" style="border-radius:10rem;width:100%;height:100%;cursor: pointer;" autoplay="true" loop muted="">
                               <source src="Media/waving80*80.mp4" type="video/mp4">
                                   
                             </video>
@@ -379,7 +379,10 @@
             });
             
 });
-
+        function showToolTip(){
+            setTimeout(function(){ $("#tooltiptextNew").show(); }, 0);
+            setTimeout(function(){ $("#tooltiptextNew").hide(); }, 4000);
+        }
     </script>
     <script>
     AOS.init();

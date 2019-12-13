@@ -81,6 +81,11 @@ for 6 pixel used 0.3575rem
         margin-left: 4vw !important;
         font-size: 2rem !important;
     }
+
+    .tooltipNewWhatsapp{
+        width: 5rem;
+        height: 5rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -140,6 +145,10 @@ for 6 pixel used 0.3575rem
         margin-left: 4vw !important;
         font-size: 2rem !important;
     }
+    .tooltipNewWhatsapp{
+        width: 5rem;
+        height: 5rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -196,6 +205,10 @@ for 6 pixel used 0.3575rem
         color: white !important;
         margin-left: 4vw !important;
         font-size: 1.5rem !important;
+    }
+    .tooltipNewWhatsapp{
+        width: 2rem;
+        height: 2rem;
     }
 }
 
