@@ -9,10 +9,12 @@
     <text id="Group_Cleaner" data-name="Group Cleaner" transform="translate(244 894)" fill="#1c1c1c" font-size="29" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="-92.749" y="0">Group Cleaner</tspan></text>
     <text id="Swap_Fill_and_Border" data-name="Swap Fill and Border" transform="translate(283 947)" fill="#1c1c1c" font-size="29" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="-132.461" y="0">Swap Fill and Border</tspan></text>
     <text id="UnSplash_It" data-name="UnSplash It" transform="translate(226 1000)" fill="#1c1c1c" font-size="29" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="-74.652" y="0">UnSplash It</tspan></text>
-    <text id="More_to_come_" data-name="More to come…" transform="translate(245 1053)" fill="#1c1c1c" font-size="29" font-family="SFCompactDisplay-Light, SF Compact Display" font-weight="300" opacity="0.502"><tspan x="-93.946" y="0">More to come…</tspan></text>
+    <text id="Quick_Lorem_Ipsum" data-name="Quick Lorem Ipsum" transform="translate(276 1053)" fill="#1c1c1c" font-size="29" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="-124.949" y="0">Quick Lorem Ipsum</tspan></text>
+    <text id="More_to_come_" data-name="More to come…" transform="translate(222 1098)" fill="#1c1c1c" font-size="21" font-family="SFCompactDisplay-Light, SF Compact Display" font-weight="300" opacity="0.502"><tspan x="-68.03" y="0">More to come…</tspan></text>
+    <text id="Created_by_Me" data-name="Created by Me" transform="translate(242 1266)" fill="#1c1c1c" font-size="29" font-family="SFCompactDisplay-Light, SF Compact Display" font-weight="300" opacity="0.502"><tspan x="-88.281" y="0">Created by Me</tspan></text>
     <text id="A_Handy_plugin_helps_you_in_improving_your_workflow_in_Adobe_XD" data-name="A Handy plugin helps you 
 in improving your workflow
 in Adobe XD" transform="translate(162 506)" fill="#2a0c1e" font-size="36" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="0" y="0">A Handy plugin helps you </tspan><tspan x="0" y="43">in improving your workflow</tspan><tspan x="0" y="86">in </tspan><tspan y="86" fill="#dc64bb">Adobe XD</tspan></text>
-    <text id="Features" transform="translate(151 735)" fill="#bababa" font-size="31" font-family="SFCompactDisplay-Regular, SF Compact Display"><tspan x="0" y="0">Features</tspan></text>
+    <text id="Features" transform="translate(151 735)" fill="#ce73b9" font-size="31" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="0" y="0">Features</tspan></text>
   </g>
 </svg>
