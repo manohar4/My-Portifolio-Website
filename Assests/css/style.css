@@ -96,7 +96,10 @@ for 6 pixel used 0.3575rem
     .tooltipNewWhatsapp.verticalTranslateback {
         top: 0rem !important;
     }
-
+    
+    .icon-scroll{
+        display: none;
+    }
     
 }
 
@@ -170,6 +173,9 @@ for 6 pixel used 0.3575rem
     .tooltipNewWhatsapp.verticalTranslateback {
         top: 0rem !important;
     }
+    .icon-scroll{
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -240,6 +246,9 @@ for 6 pixel used 0.3575rem
     .tooltipNewWhatsapp.verticalTranslateback {
         top: 0rem !important;
     }
+    .icon-scroll{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -300,6 +309,9 @@ for 6 pixel used 0.3575rem
 
     .tooltipNewWhatsapp.verticalTranslateback {
         top: 0rem !important;
+    }
+    .icon-scroll{
+        display: block;
     }
 }
 
@@ -566,9 +578,9 @@ body {
    
 
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0e0e0e+0,0e0e0e+51,7db9e8+100&1+0,0.9+51,0+100 */
-background: -moz-linear-gradient(top,  rgba(14,14,14,1) 0%, rgba(14,14,14,0.9) 51%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(14,14,14,1) 0%,rgba(14,14,14,0.9) 51%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(14,14,14,1) 0%,rgba(14,14,14,0.9) 51%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(to bottom, #0E0E0E 0%, #0e0e0ee6 51%, #00000000 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); /* FF3.6-15 */
+background: -webkit-linear-gradient(to bottom, #0E0E0E 0%, #0e0e0ee6 51%, #00000000 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #0E0E0E 0%, #0e0e0ee6 51%, #00000000 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
 
   
