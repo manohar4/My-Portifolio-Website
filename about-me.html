@@ -424,20 +424,20 @@
             }
 
 
-            $(".animojiCol").on("mouseenter", function (event) {
+            // $(".animojiCol").on("mouseenter", function (event) {
 
-                setTimeout(function (event) {
-                    var currentVideo = $(".animojiCol")[0].children[window.currentAnimoji -
-                        1];
-                    currentVideo.style.display = "none";
-                    const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-                    window.currentAnimoji = random_item(items);
-                    $(".animojiCol")[0].children[window.currentAnimoji - 1].style.display =
-                        "block";
-                    $(".animojiCol")[0].children[window.currentAnimoji - 1].currentTime = 0;
-                    $(".animojiCol")[0].children[window.currentAnimoji - 1].play();
-                }, 1000)
-            });
+            //     setTimeout(function (event) {
+            //         var currentVideo = $(".animojiCol")[0].children[window.currentAnimoji -
+            //             1];
+            //         currentVideo.style.display = "none";
+            //         const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+            //         window.currentAnimoji = random_item(items);
+            //         $(".animojiCol")[0].children[window.currentAnimoji - 1].style.display =
+            //             "block";
+            //         $(".animojiCol")[0].children[window.currentAnimoji - 1].currentTime = 0;
+            //         $(".animojiCol")[0].children[window.currentAnimoji - 1].play();
+            //     }, 1000)
+            // });
 
             $(".animojiCol").on("click",function(event){
                 setTimeout(function (event) {
